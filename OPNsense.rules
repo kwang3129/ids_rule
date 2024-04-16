@@ -5,3 +5,4 @@
 #
 
 # -- User defined rules
+drop ip   192.168.96.1  any ->  172.15.6.33  any (msg:"TEST RULE";  sid:4294967294; rev:1;)
